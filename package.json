@@ -1,0 +1,37 @@
+{
+  "name": "api-meteorologia",
+  "version": "1.0.0",
+  "description": "Typescript NodeJS api",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node ./dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LGeremia/api-meteorologia.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "TypeScript",
+    "API"
+  ],
+  "author": "Leonardo Geremia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LGeremia/api-meteorologia/issues"
+  },
+  "homepage": "https://github.com/LGeremia/api-meteorologia#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^17.0.40",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
