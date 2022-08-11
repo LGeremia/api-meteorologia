@@ -1,0 +1,9 @@
+{
+    "App":{
+        "resources":{
+            "StormGlass":{
+                "apiToken": "api-test-token-comes-here-not-hard-code"
+            }
+        }
+    }
+}
